@@ -41,5 +41,6 @@ def game():
     if "_" in letras_descobertas:
         print("\nVocê perdeu! A palavra era:", palavra)
 
-if name == "main":
+if __name__ == "__main__":
     game()
+
