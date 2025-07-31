@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Emagrecendo com a Bel</title>
+  </head>
+        <!-- CABEÇALHO-->
+  <body>
+    <header class="barra-topo">
+       <div class="header-col left-col">
+        <span> Carrinho <!-- ...inside <header>... -->
+<button id="cart-button">
+  Carrinho (<span id="cart-count">0</span>)
+</button>
+<!-- ...existing code... --></span>
+       </div> 
+
+       <div class="header-col center-col">
+      <img src="https://i.ibb.co/B5whTCHH/Whats-App-Image-2025-07-13-at-19-59-08.jpg" alt="Logo da Bel" class="logo-topo"/> 
+      </div>
+    
+      <div class="header-col right-col" >
+      <span>Bem-vindo ao Emagrecendo com a Bel!</span>
+      </div>
+    </header>
+    
+    <!-- PRODUTOS DO SITE -->
+   <!-- PRODUTOS DO SITE -->
+<main style="min-height: 50vh; padding: 20px;">
+  <h1>Conteúdo Principal do Site</h1>
+  <p>Aqui você pode colocar o conteúdo principal da sua página.</p>
+  <p>Este texto ajuda a garantir que o rodapé não fique "flutuando" logo abaixo do cabeçalho se a página for muito curta.</p>
+
+  <section>
+    <h1 id="products-heading">Produtos</h1>
+    <p id="products-intro-text">Confira nossos produtos abaixo:</p>
+    <div id="products-container" class="container-produtos"></div>
+  </section>
+
+  <section id="cart-section" style="display:none;">
+    <h2>Carrinho</h2>
+    <div id="cart-items"></div>
+    <p>Total: R$ <span id="cart-total">0,00</span></p>
+    <button id="checkout-button">Enviar Pedido via WhatsApp</button>
+    <button id="close-cart-button">Fechar Carrinho</button>
+  </section>
+</main>
+    
+      
+    <!-- RODAPÉ-->
+    <footer>     
+        <nav class="links-rodape">
+            <a href="https://www.facebook.com/groups/548552952353341/">Grupo do Facebook</a>
+            <a href="https://www.facebook.com/isabelgomes.bel.562?mibextid=ZbWKwL">Perfil do Facebook</a>
+            <a href="https://www.instagram.com/emagrecedoresdabel/?igsh=MjIzcXZoemd1N2Nr#">Perfil do Instagram</a>
+        </nav>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html> 
